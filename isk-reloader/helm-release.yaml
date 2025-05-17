@@ -13,7 +13,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: stakater-chart
-        namespace: isk-reloader
+        namespace: flux-system
   values:
     reloader:
       ignoreSecrets: false
