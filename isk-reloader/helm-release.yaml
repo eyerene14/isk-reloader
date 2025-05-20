@@ -12,7 +12,7 @@ spec:
       version: v1.0.2
       sourceRef:
         kind: HelmRepository
-        name: stakater-charts
+        name: stakater-chart
         namespace: flux-system
   values:
     reloader:
