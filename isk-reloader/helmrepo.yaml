@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
   name: stakater-chart
-  namespace: flux-system
+  namespace: isk-reloader
 spec:
   interval: 5m
   url: https://stakater.github.io/stakater-charts
