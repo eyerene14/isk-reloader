@@ -18,4 +18,4 @@ spec:
     reloader:
       ignoreSecrets: false
       ignoreConfigMaps: false
-      reloadStrategy: annotations # Set to default, env-vars or annotations
+      reloadStrategy: env-vars #annotations # Set to default, env-vars or annotations
